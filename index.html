@@ -4,15 +4,22 @@
 <head>
   <meta charset="utf-8">
   <title>Animal Buttons</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-  <button data-element="wind">wind</button>
-  <button data-element="fire">fire</button>
-  <button data-element="water">water</button>
-  <button data-element="earth">earth</button>
-  <button data-element="lightning">lightning</button>
-  <button data-element="thunder">thunder</button>
+  <button data-element="wind">Wind</button>
+  <button data-element="fire">Fire</button>
+  <button data-element="water">Water</button>
+  <button data-element="earth">Earth</button>
+  <button data-element="lightning">Lightning</button>
+  <button data-element="thunder">Thunder</button>
+  <button data-element="dark">Darkness</button>
+  <button data-element="light">Light</button>
+  <button data-element="plasma">Plasma</button>
+  <button data-element="time">Time</button>
+  <button data-element="spirit">spirit</button>
+
   
   <div id="gifs-appear-here">
   </div>
@@ -55,7 +62,7 @@
             elementImage.attr("src", results[i].images.fixed_height.url);
 
             // Appending the paragraph and image tag to the animalDiv
-            elementDiv.append(p);
+            
             elementDiv.append(elementImage);
 
             // Prependng the animalDiv to the HTML page in the "#gifs-appear-here" div

@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+}
+button {
+    width: 25% ;
+    height: 40px ;
+    margin-top: 10px ;
+    border-radius: 10px;
+    border-color: red ;
+}
+button:hover {
+    background-color: black;
+    color: white;
+}
+#gifs-appear-here {
+    padding-top: 25px ;
+    width: 100% ;
+}
+div img {
+    width: 500px ;
+}
