@@ -7,15 +7,28 @@ button {
     margin-top: 10px ;
     border-radius: 10px;
     border-color: red ;
+    font-family: 'Concert One', cursive;
 }
 button:hover {
     background-color: black;
     color: white;
 }
-#gifs-appear-here {
+#element-view {
     padding-top: 25px ;
     width: 100% ;
 }
-div img {
-    width: 500px ;
+.element {
+    display: inline-block!important;
+}
+#element-input {
+    width: 200px;
+    height: 30px ;
+    border-radius: 10px ;
+    border-color:red ;
+}
+label {
+    font-family: 'Concert One', cursive;
+}
+h1 {
+    font-family: 'Concert One', cursive;
 }
